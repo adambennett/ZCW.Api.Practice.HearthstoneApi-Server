@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.*;
 
 @RestController
+@CrossOrigin
 public class CardController {
 
     private CardService service;
